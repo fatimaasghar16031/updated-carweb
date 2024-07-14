@@ -1,0 +1,49 @@
+body {
+  /*  */
+  background-image: url('ASSET/luxery.jpg');
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+  text-shadow: 0 0 3px #141212, 0 0 5px #ffffff;
+  text-align: center;
+ text-transform: capitalize;
+
+}
+
+
+.car-card {
+  margin-bottom: 40px;
+  background-color: rgb(172, 162, 162);
+}
+
+#carousel {
+  width: 100%;
+
+}
+
+/* <-------service---------9 */
+
+.card {
+  transition: transform 0.2s;
+  /* Smooth transition for card hover effect */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  /* Lift cards on hover */
+}
+
+#navbarNav{
+  flex-direction: row;
+  justify-content: right;
+  align-items: flex-end;
+}

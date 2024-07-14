@@ -1,0 +1,77 @@
+body {
+     background-color: #4e5d78;
+     background-image: url('ASSET/bk2.jpg');
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+  }
+  .jumbotron {
+    background-color: #f8f9fa;
+    background-image: url('ASSET/WEGON.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: 100% 110% ;
+    
+    color: #fff;
+    text-align: center;
+    padding: 110px ;
+    margin-bottom: 0;
+   
+    
+  }
+  .car-card {
+    margin-bottom: 40px;
+    background-color: rgb(172, 162, 162);
+  }
+  
+  /* <-------service---------> */
+  
+  .card {
+    transition: transform 0.2s; /* Smooth transition for card hover effect */
+    background-color: rgb(172, 162, 162);
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Lift cards on hover */
+  }
+  .service {
+    color: white;
+    font-size: 50px;
+    text-shadow: -1px 1px 0 #000,
+      1px 1px 0 #000,
+      1px -1px 0 #000,
+      -1px -1px 0 #000;
+    text-shadow: 0 0 3px #141212, 0 0 5px #ffffff;
+    text-align: center;
+   text-transform: capitalize;
+  }
+  .servicebk{
+  background-image: url('ASSET/service.jpg');
+  }
+  /* -----CONTACT US------ */
+
+  .contact {
+    color: #ffffff;
+    font-size: 50px;
+    text-shadow: -1px 1px 0 #000,
+      1px 1px 0 #000,
+      1px -1px 0 #000,
+      -1px -1px 0 #000;
+    text-shadow: 0 0 3px #141212, 0 0 5px #ffffff;
+    text-align: center;
+   text-transform: capitalize;
+  }
+ .contactbk{
+    background-image: url('ASSET/contact\ bk.jpg');
+  }
+  .form-group{
+    color: #fff;
+    font-size: 20px;
+  }
+
+  /* -----nav----- */
+  #navbarNav{
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+  }
+ 

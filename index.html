@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Showroom</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Car Showroom</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="car.html">Cars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <h1>Welcome to Our Car Showroom</h1>
+    <p class="lead">Discover the latest and finest collection of cars.</p>
+    <a class="btn btn-primary btn-lg" href="car.html" role="button">Explore Cars</a>
+  </div>
+  <!-- Car Cards -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card car-card">
+          <img src="ASSET/Fararri jpeg.jpg" card-img-top alt="Car" height="230">
+          <div class="card-body">
+            <h5 class="card-title"><i><b>FRARRI</b></i></h5>
+            <a href="car.html" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card car-card">
+          <img src="ASSET/Audi-2.jpg" class="card-img-top" alt="Car" height="230">
+          <div class="card-body">
+            <h5 class="card-title"><i><b>AUDI</b></i></h5>
+            <a href="car.html" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card car-card">
+          <img src="ASSET/tesla.jpg" class="card-img-top" alt="Car" height="230">
+          <div class="card-body">
+            <h5 class="card-title"><i><b>TESLA MODEL 3</b></i></h5>
+            <a href="car.html" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-3">
+    <p>&copy; 2024 Car Showroom. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
